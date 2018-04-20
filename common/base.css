@@ -29,11 +29,11 @@ a{text-decoration: none;color: black;}
 .m-head>.logo,.m-head>button{
     position: absolute;
     display: inline-block;
-    top: 10px;
+    top: 20px;
 }
 .m-head>.logo{
     left: 0;
-    width: 60px;height: 60px;
+    width: 40px;height: 40px;
 }
 .m-head>button{
     right:0;top: 40%;

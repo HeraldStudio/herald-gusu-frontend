@@ -10,8 +10,9 @@
  */
 window.onload = function () {
 
-    // // 判断登录状态
-    var token = getCookie('token') || null;
+    // 判断登录状态
+    var cookie = getCookie() || {};
+    var token = cookie["herald-gusu-token"];
     if (token == null) {
         document.getElementsByClassName('login')[0].classList.remove('none');
     } else {
@@ -36,7 +37,8 @@ window.onload = function () {
             })
             .then(function (response) {
                 token = response.data.result;
-                setCookie('token', token, 30);
+                console.log(token);
+                setCookie('herald-gusu-token', token, 30);
                 location.reload();
             })
             .catch(function (error) {
@@ -48,7 +50,7 @@ window.onload = function () {
     var quitBtn = document.getElementById('g-quit');
     quitBtn.addEventListener('click', function (event) {
         event.preventDefault();
-        clearCookie('token');
+        clearCookie("herald-gusu-token");
         location.reload();
     });
 
@@ -61,15 +63,15 @@ window.onload = function () {
                 switch (i) {
                     case 0:
                         // 跳转到 curriculum
-                        window.location.href="../page/works/curriculum.html";
+                        window.location.href="page/works/curriculum.html";
                         break;
                     case 1:
                         //跳转到 gpa
-                        window.location.href="../page/works/gpa.html";
+                        window.location.href="page/works/gpa.html";
                         break;
                     case 2:
                         // 跳转到 card
-                        window.location.href="../page/works/card.html";
+                        window.location.href="page/works/card.html";
                         break;
                     default:
                         break;

@@ -95,7 +95,7 @@ function getjosn(gg) {
     $.get({
         url: "http://myseu.cn/ws3/api/curriculum",
         headers: {
-            'token': getCookie()['token']
+            'token': getCookie()["herald-gusu-token"]
         }
     }, function (data) {
         process(data, gg);

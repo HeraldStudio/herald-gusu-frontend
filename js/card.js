@@ -46,7 +46,7 @@ window.onload = function(){
     var balance = document.querySelector('.result>.info>.balance>span');
     var detail = document.getElementsByClassName('detail')[0];
     // 请求获得一卡通数据
-    var token = getCookie()['token'];
+    var token = getCookie()["herald-gusu-token"];
     axios.get("https://myseu.cn/ws3/api/card",{
         headers: {
             'token':token

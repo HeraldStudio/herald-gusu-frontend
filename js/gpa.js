@@ -14,7 +14,7 @@ function buildReport(data) {
     var creditsN = document.getElementById("credits");
     var detailN = document.getElementById("detail");
     // 填写学分信息
-    var tempCredits = '<div><li>\n' +
+    var tempCredits = '<li>\n' +
         '                    <p class="c-type">学位学分</p>\n' +
         '                    <p>'+ credits.degree +'</p>\n' +
         '                </li>\n' +
@@ -29,7 +29,7 @@ function buildReport(data) {
         '                <li>\n' +
         '                    <p class="c-type">应修学分</p>\n' +
         '                    <p>'+ credits.required +'</p>\n' +
-        '                </li></div>';
+        '                </li>';
     creditsN.innerHTML = tempCredits;
 
     // 填写课程信息
@@ -64,7 +64,7 @@ window.onload = function () {
         window.history.back(-1);
     });
     // 请求获得成绩数据
-    var token = getCookie()['token'];
+    var token = getCookie()["herald-gusu-token"];
     axios.get("https://myseu.cn/ws3/api/gpa",{
         headers: {
             'token':token
