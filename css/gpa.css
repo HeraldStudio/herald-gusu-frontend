@@ -1,0 +1,56 @@
+/**
+ * 作者：杨昱昊
+ * 时间：2018-4-17
+ */
+#g-back{
+    background-image: url("../res/image/back.png");
+}
+#credits{
+    height: 70px;
+    border: 2px solid #31a5f2;
+    border-width: 2px 0;
+}
+#credits>div,#detail{
+    width: 100%;
+    max-width: 375px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#credits>div>li{
+    width: 25% ;
+    float: left;
+    box-sizing: border-box;
+}
+#credits>div>li+li{
+    border-left: 1px solid #31a5f2;
+}
+#credits>div>li>p{
+    text-align: center;
+    font: 14px/35px sans-serif;
+    color: #393939;
+}
+#credits>div>li>.c-type{
+    font-size: 16px;
+    color: #2e76b7;
+    font-weight: bold;
+}
+
+.d-item{
+    padding: 0 16px;
+    width: 90%;
+    margin: auto;
+    height:70px;
+}
+.d-item+.d-item{
+    border-top:1px solid #e1e1e1;
+}
+
+.course{
+    font: 16px/35px sans-serif;
+    color: #2e76b7;
+}
+.score>p{
+    display: inline-block;
+    font: 12px/35px sans-serif;
+}

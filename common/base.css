@@ -1,0 +1,46 @@
+/**
+*   作者：杨昱昊
+*   时间：2018-4-15
+*   功能：初始化以及部分全局样式
+*/
+html {overflow-y:scroll;} 
+body { margin:0; padding:29px00; font:12px"\5B8B\4F53",sans-serif;background:#ffffff;} 
+div,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,p,button
+{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;} 
+li{list-style-type:none;} 
+img{vertical-align:top;border:0;} 
+ol,ul {list-style:none;} 
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;} 
+a{text-decoration: none;color: black;}
+.container{
+    width: 100%;
+    position: relative;
+}
+.none{display: none;}
+.m-head{
+    position: relative;
+    background-color: #fff;
+    width: 260px;
+    height: 70px;
+    margin: auto;
+}
+
+.m-head>.logo,.m-head>button{
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+}
+.m-head>.logo{
+    left: 0;
+    width: 60px;height: 60px;
+}
+.m-head>button{
+    right:0;top: 40%;
+    width: 30px;height: 30px;
+    background-color: #fff;
+    border: none;
+    outline:none;
+    background: #fff no-repeat scroll center;
+    background-size:cover;
+}

@@ -1,0 +1,51 @@
+/**
+ * 作者：杨昱昊
+ * 时间：2018-4-18
+ * 功能：查看当前绩点以及各科成绩
+ */
+#g-back{
+    background-image: url("../res/image/back.png");
+}
+.info{
+    height: 70px;
+    border: 2px solid #31a5f2;
+    border-width: 2px 0;
+}
+.info>.balance,.detail{
+    width: 100%;
+    max-width: 375px;
+    margin: auto;
+    overflow: hidden;
+}
+.balance{
+    text-align: center;
+    font: 18px/70px sans-serif;
+    color: #2e76b7;
+    font-weight: bold;
+}
+.d-item{
+    padding: 0 16px;
+    width: 90%;
+    margin: auto;
+    height:70px;
+    overflow: hidden;
+}
+.d-item+.d-item{
+    border-top:1px solid #e1e1e1;
+}
+.d-item>.desc{
+    display: block;
+    font: 16px/35px sans-serif;
+    color: #2e76b7;
+}
+.d-item>p{
+    display: inline-block;
+    font: 13px/35px sans-serif;
+}
+.time{
+    float: left;
+}
+.amount{
+    float: right;
+}
+
