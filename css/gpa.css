@@ -12,7 +12,7 @@
 }
 #credits,#detail{
     width: 100%;
-    max-width: 375px;
+    max-width: 460px;
     margin: auto;
     overflow: hidden;
 }
@@ -50,8 +50,16 @@
     font: 16px/35px sans-serif;
     color: #2e76b7;
 }
+.score{
+    overflow: hidden;
+}
 .score>p{
     display: inline-block;
     font: 12px/35px sans-serif;
-    margin-right: 20px;
+}
+.score>p+p{
+    margin-left:20px;
+}
+.right{
+    float: right;
 }

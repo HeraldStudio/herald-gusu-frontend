@@ -12,7 +12,7 @@ function formatDate(date) {
     }else{
         temp = date;
     }
-    var str = temp.getFullYear()+'-'+temp.getMonth()+1+'-'+temp.getDate()+' '+temp.getHours()+':'+temp.getMinutes()+':'+temp.getSeconds();
+    var str = temp.getFullYear()+'-'+temp.getMonth()+1+'-'+temp.getDate()+'0 '+temp.getHours()+':'+temp.getMinutes()+':'+temp.getSeconds();
     return str;
 }
 

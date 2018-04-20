@@ -46,7 +46,7 @@ function buildReport(data) {
                 '                    <div class="score">\n' +
                 '                        <p>类型：'+ courses[j].scoreType+'</p>\n' +
                 '                        <p>学分：'+ courses[j].credit +'</p>\n' +
-                '                        <p>成绩：'+ courses[j].score +'</p>\n' +
+                '                        <p class="right">成绩：'+ courses[j].score +'</p>\n' +
                 '                    </div>\n' +
                 '                </li>';
             tempdiv.innerHTML = tempCourse;
