@@ -6,5 +6,6 @@
 * 一卡通 GET /api/card
 * 课表 GET /api/curriculum
 * 成绩 GET /api/gpa
+
 **tips:** 
 * 研究生platform默认为`gusu`
