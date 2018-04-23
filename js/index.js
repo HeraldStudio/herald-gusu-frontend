@@ -63,15 +63,15 @@ window.onload = function () {
                 switch (i) {
                     case 0:
                         // 跳转到 curriculum
-                        window.location.href="page/works/curriculum.html";
+                        window.location.href="page/curriculum.html";
                         break;
                     case 1:
                         //跳转到 gpa
-                        window.location.href="page/works/gpa.html";
+                        window.location.href="page/gpa.html";
                         break;
                     case 2:
                         // 跳转到 card
-                        window.location.href="page/works/card.html";
+                        window.location.href="page/card.html";
                         break;
                     default:
                         break;

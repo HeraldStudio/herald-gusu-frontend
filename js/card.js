@@ -53,7 +53,6 @@ window.onload = function(){
         }
     })
         .then(function (response) {
-            console.log(response);
             balance.innerHTML = response.data.result.info.balance;
             buildBill(detail,response.data.result.detail);
         })
