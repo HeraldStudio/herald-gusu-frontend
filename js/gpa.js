@@ -58,7 +58,7 @@ function buildReport(data) {
 
 window.onload = function () {
     // 返回主菜单
-    let backBtn = document.getElementById('g-back');
+    var backBtn = document.getElementById('g-back');
     backBtn.addEventListener('click',function (e) {
         e.preventDefault();
         window.history.back(-1);
