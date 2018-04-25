@@ -13,8 +13,10 @@ img{vertical-align:top;border:0;}
 ol,ul {list-style:none;} 
 h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;} 
 a{text-decoration: none;color: black;}
+button{border: none;outline: none;background: none;}
 .container{
     width: 100%;
+    min-width: 320px;
     position: relative;
 }
 .none{display: none;}
@@ -40,8 +42,6 @@ a{text-decoration: none;color: black;}
     right:0;top: 40%;
     width: 30px;height: 30px;
     background-color: #fff;
-    border: none;
-    outline:none;
     background: #fff no-repeat scroll center;
     background-size:cover;
 }
