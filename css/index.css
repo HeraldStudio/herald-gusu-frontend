@@ -60,6 +60,7 @@ footer{
     height: 100px;
     border: 3px solid #31a5f2;
     border-radius: 5px;
+    
 }
 .m-item>p{
     position: absolute;
@@ -68,4 +69,12 @@ footer{
     left: 5%;
     font: 15px/15px sans-serif;
     padding: 0 5px;
+}
+.m-item>.m-icon{
+    position: absolute;
+    left: 50%;top:50%;
+    transform: translate(-50%,-50%);
+
+    display: block;
+    width: 80px;
 }
